@@ -1,0 +1,26 @@
+/* COMMON CSS */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+img{width: 100%;}
+.widthh{width: 100%; clear: both; float: left;}
+.ml{margin-left: 50%;}
+/* COMPONENTS */
+
+/* HEADER */
+.header ul{width: 100%; float: left;margin-top: 5%;}
+.header ul li{display: inline-block;width: 15%;}
+
+/* Fotter */
+.fotter{
+    background-color: #333333;
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+/* Landing Page */
+
+
+/* Slider */
+
+.Bannerslider{background-color: green;}
+
+
