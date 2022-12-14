@@ -10,7 +10,7 @@ export const Fullwidth = styled.div`
 `
 
 export const Wrapper = styled.div`
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 20px;
 `;
@@ -206,10 +206,9 @@ export const HH4 = styled.h4`
     color: ${(props) => props.color};
     font-family: Optima;
     font-size: ${(props) => props.size};
-    line-height: 40px;
+    line-height: 1.3;
     letter-spacing: -0.03em;
-    margin-top: 20px;
-    width: 70%;
+    width: 90%;
 
     @media (max-width: 1024px) {
     font-size: ${(props) => props.medsize};

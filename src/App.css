@@ -3,6 +3,8 @@
 img{width: 100%;}
 .widthh{width: 100%; clear: both; float: left;}
 .ml{margin-left: 50%;}
+li{list-style-type: none;}
+ul> li> a {text-decoration: none; color: black;}
 /* COMPONENTS */
 
 /* HEADER */
@@ -16,7 +18,39 @@ img{width: 100%;}
     float: left;
     margin-top: 5%;
 }
+
+.latestnews ul{
+    width: 100%;
+    float: left;
+}
+
+.latestnews ul li{
+    width: 25%;
+    float: left;
+}
 /* Landing Page */
+
+/* Enquiryform  */
+.enquiryform , .enquiryform ul{
+    width: 100%;
+    float: left;
+}
+
+.enquiryform ul li{
+    padding-top: 4%;
+    width: 50%;
+    float: left;
+}
+
+.enquiryform ul li:last-child{
+    width: 100%;
+    float: left;
+}
+
+.enquiryform ul li input{
+    border: none;
+    border-bottom: black 2px solid;
+}
 
 
 /* Slider */
