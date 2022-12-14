@@ -3,6 +3,7 @@ import Header from "../Components/header";
 import Fotter from "../Components/Fotter";
 // Import All Pages
 import LandingPage from "../Pages/LandingPage";
+import Aboutus from "../Pages/Aboutus";
 import Contactuspage from "../Pages/ContactUs";
 import PageNotFound from "../Pages/PageNotFound";
 
@@ -13,6 +14,7 @@ function Routing() {
             <Header />
             <Routes>
                 <Route path="/" element={<LandingPage />} />
+                <Route path="/aboutus" element={<Aboutus />} />
                 <Route path="/contactus" element={<Contactuspage />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>

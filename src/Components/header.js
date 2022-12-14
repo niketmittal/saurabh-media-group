@@ -17,7 +17,7 @@ function Header() {
                     <Widthfifty>
                         <ul>
                             <li><Link to="/">HOME</Link></li>
-                            <li><Link to="/">ABOUT US</Link></li>
+                            <li><Link to="/aboutus">ABOUT US</Link></li>
                             <li><Link to="/contactus">CONTACT US</Link></li>
                         </ul>
                     </Widthfifty>

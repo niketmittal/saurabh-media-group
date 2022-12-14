@@ -100,6 +100,13 @@ export const Delete = styled.button`
     padding: 5px 12px ;
 `;
 
+export const Moreinfo = styled.button`
+    border: 1px solid #BD5224;
+    color: #BD5224;
+    float: left;
+    padding: 5px 12px ;
+`;
+
 export const Start = styled.button`
     margin-top: 50px;
     background-color: rgb(247, 129, 45);
@@ -180,13 +187,11 @@ export const HH1 = styled.h2`
 `;
 
 export const HH2 = styled.h2`
-    color: ${(props) => props.color};
-    font-size: 40px;
-    font-family: Optima;
-    font-weight: 500;
-    letter-spacing: -0.035em;
-    width: 95%;
-    margin: ${(props) => props.mrg};
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
 
     @media (max-width: 1024px) {
     font-size: ${(props) => props.mediasize};
@@ -194,21 +199,30 @@ export const HH2 = styled.h2`
 `;
 
 export const HH3 = styled.h3`
-    color: ${(props) => props.color};
-    font-family: "Work Sans";
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: 10px;
-    letter-spacing: -0.035em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+`;
+
+export const HH6 = styled.h6`
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
 `;
 
 export const HH4 = styled.h4`
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin : 20px 0 ;
     color: ${(props) => props.color};
-    font-family: Optima;
-    font-size: ${(props) => props.size};
-    line-height: 1.3;
-    letter-spacing: -0.03em;
-    width: 90%;
+
 
     @media (max-width: 1024px) {
     font-size: ${(props) => props.medsize};
@@ -219,10 +233,22 @@ export const HH4 = styled.h4`
 
 export const PP1 = styled.p`
     color: ${(props) => props.color};
-    font-family: "Optima";
     font-weight: 400;
+    width: 90%;
     
     margin-bottom: 0;
+    @media (max-width: 767px) {
+    font-size: 29px;
+    }
+`;
+
+export const PP2 = styled.p`
+    color: ${(props) => props.color};
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
     @media (max-width: 767px) {
     font-size: 29px;
     }

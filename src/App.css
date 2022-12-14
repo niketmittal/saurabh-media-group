@@ -5,6 +5,10 @@ img{width: 100%;}
 .ml{margin-left: 50%;}
 li{list-style-type: none;}
 ul> li> a {text-decoration: none; color: black;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* COMPONENTS */
 
 /* HEADER */
@@ -13,7 +17,7 @@ ul> li> a {text-decoration: none; color: black;}
 
 /* Fotter */
 .fotter{
-    background-color: #333333;
+    background-color: #535353;
     width: 100%;
     float: left;
     margin-top: 5%;
@@ -25,8 +29,9 @@ ul> li> a {text-decoration: none; color: black;}
 }
 
 .latestnews ul li{
-    width: 25%;
+    width: 23%;
     float: left;
+    margin-left: 2%;
 }
 /* Landing Page */
 
@@ -50,11 +55,33 @@ ul> li> a {text-decoration: none; color: black;}
 .enquiryform ul li input{
     border: none;
     border-bottom: black 2px solid;
+    background-color: #c05b2f;
 }
 
+.enquiryform ul li input::placeholder{
+    color: black;
+}
 
+/* upcomingevents */
+.upcomingevents ul li{
+    width: 30%;
+    float: left;
+    padding-bottom: 2%;
+    margin-left: 2%;
+}
 /* Slider */
 
 .Bannerslider{background-color: green;}
 
 
+.enquiryform{
+    color: #fff;
+}
+
+/* Buttons */
+#submit{
+    padding: 5px 10px;
+    border: solid black 2px;
+    background-color: black;
+    color: #c05b2f;
+}

@@ -7,30 +7,23 @@ function Enquiryform() {
             <div className="enquiryform">
                 <Fullwidth>
                     <Wrapper>
-                        <Fullwidth>
-                            <HH2>ENQUIRY</HH2>
-                            <PP1>E-mail your queries to : dbcorpqueries@dbcorp.in</PP1>
-                            <p>All fields are mandatory *</p>
+                        <Fullwidth bgcolor="rgba(189, 82, 36, 0.95);">
+                            <Wrapper>
+                                <HH2>ENQUIRY</HH2>
+                                <PP1>E-mail your queries to : dbcorpqueries@dbcorp.in</PP1>
+                                <p>All fields are mandatory *</p>
+                            </Wrapper>
                             <form>
                                 <ul>
                                     <li>
-                                        <input type="text" placeholder="First Name" />
+                                        <input type="text" placeholder="Name" />
                                     </li>
                                     <li>
-                                        <input type="text" placeholder="Last Name" />
-                                    </li>
-                                    <li>
-                                        <input type="email" placeholder="Email" />
-                                    </li>
-                                    <li>
-                                        <input type="text" placeholder="Mobile Number" />
-                                    </li>
-                                    <li>
-                                        <input type="text" placeholder="Message" />
+                                        <input type="text" placeholder="Phone number" />
                                     </li>
                                     <Fullwidth mp="5%">
-                                        <Widthmargina width="20%">
-                                            <input type="submit" />
+                                        <Widthmargina width="35%">
+                                            <input type="submit" id="submit" />
                                         </Widthmargina>
                                     </Fullwidth>
                                 </ul>

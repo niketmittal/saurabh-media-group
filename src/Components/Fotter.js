@@ -1,5 +1,5 @@
 import React from "react";
-import { Fullwidth, Widthonefourth, Widthseventyfive, Wrapper } from "../style/commonstyle";
+import { Fullwidth, HH4, PP2, Widthonefourth, Widthseventyfive, Wrapper } from "../style/commonstyle";
 function Fotter() {
     return (
         <>
@@ -15,10 +15,12 @@ function Fotter() {
                             </Widthonefourth>
                             <Widthseventyfive>
                                 <Widthonefourth>
-                                    <Fullwidth>
-                                        <p>One</p>
-
-                                    </Fullwidth>
+                                    <Wrapper>
+                                        <Fullwidth>
+                                            <HH4 color="#fff">Who We Are</HH4>
+                                            <PP2 color="#fff">History</PP2>
+                                        </Fullwidth>
+                                    </Wrapper>
                                 </Widthonefourth>
                             </Widthseventyfive>
                         </Fullwidth>

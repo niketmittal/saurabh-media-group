@@ -18,7 +18,36 @@ function Latestnews() {
                                 </Fullwidth>
                             </Fullwidth>
                         </li>
-
+                        <li>
+                            <Fullwidth>
+                                <Fullwidth>
+                                    <img src="..\images\logo.png" />
+                                </Fullwidth>
+                                <Fullwidth mp="5%">
+                                    <HH4 size="20px">Bharat Jodo Yatra: The Message and the Messanger</HH4>
+                                </Fullwidth>
+                            </Fullwidth>
+                        </li>
+                        <li>
+                            <Fullwidth>
+                                <Fullwidth>
+                                    <img src="..\images\logo.png" />
+                                </Fullwidth>
+                                <Fullwidth mp="5%">
+                                    <HH4 size="20px">Bharat Jodo Yatra: The Message and the Messanger</HH4>
+                                </Fullwidth>
+                            </Fullwidth>
+                        </li>
+                        <li>
+                            <Fullwidth>
+                                <Fullwidth>
+                                    <img src="..\images\logo.png" />
+                                </Fullwidth>
+                                <Fullwidth mp="5%">
+                                    <HH4 size="20px">Bharat Jodo Yatra: The Message and the Messanger</HH4>
+                                </Fullwidth>
+                            </Fullwidth>
+                        </li>
                     </ul>
 
 
