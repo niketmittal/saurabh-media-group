@@ -1,9 +1,5 @@
 import React from "react";
 import { Fullwidth, HH3, HH4, Moreinfo, PP2 } from "../style/commonstyle";
-import event1 from "../assets/arijit.png"
-import event2 from "../assets/holi.jpeg"
-import event3 from "../assets/grandfair.jpg"
-
 function Upcomingevents() {
     return(
         <>
@@ -12,7 +8,7 @@ function Upcomingevents() {
                 <li>
                     <Fullwidth>
                         <Fullwidth>
-                            <img src={event1} />
+                            <img src="..\images\logo.png" />
                         </Fullwidth>
                         <Fullwidth>
                             <HH4>Produt Launches</HH4>
@@ -24,7 +20,7 @@ function Upcomingevents() {
                 <li>
                     <Fullwidth>
                         <Fullwidth>
-                            <img src={event2} />
+                            <img src="..\images\logo.png" />
                         </Fullwidth>
                         <Fullwidth>
                             <HH4>Produt Launches</HH4>
@@ -36,7 +32,7 @@ function Upcomingevents() {
                 <li>
                     <Fullwidth>
                         <Fullwidth>
-                            <img src={event3} />
+                            <img src="..\images\logo.png" />
                         </Fullwidth>
                         <Fullwidth>
                             <HH4>Produt Launches</HH4>

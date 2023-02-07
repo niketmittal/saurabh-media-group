@@ -10,7 +10,7 @@ function Header() {
                     <Widthfifty>
                         <Widthonefourth>
                             <Link to="/">
-                                <img src="..\images\logo.jpg" alt="Logo" />
+                                <img src="..\images\logo.png" alt="Logo" />
                             </Link>
                         </Widthonefourth>
                     </Widthfifty>
@@ -19,8 +19,6 @@ function Header() {
                             <li><Link to="/">HOME</Link></li>
                             <li><Link to="/aboutus">ABOUT US</Link></li>
                             <li><Link to="/contactus">CONTACT US</Link></li>
-                            <li><a href="https://saurabhadvertisement.netlify.app/">NEWSPAPER-SUBSCRIPTION</a></li>
-                            <li><a href="https://eventheld.netlify.app/">EVENT-SUBSCRIPTION</a></li>
                         </ul>
                     </Widthfifty>
                 </Fullwidth>

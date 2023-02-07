@@ -9,7 +9,7 @@ function Aboutus() {
                     <h1>OUR HISTORY</h1>
                     <Fullwidth>
                         <Widthfifty>
-                            <img src="..\images\logo.jpg" />
+                            <img src="..\images\logo.png" />
                         </Widthfifty>
                         <Widthfifty>
                             <Wrapper>
