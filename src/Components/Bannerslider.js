@@ -1,6 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
+import slider1 from "../assets/slider1.jpg"
+import slider2 from "../assets/slider2.jpg"
 
 function Bannerslider() {
   const [userapi, setuserapi] = useState([]);
@@ -9,7 +11,8 @@ function Bannerslider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.dainikbhaskargroup.com/images/slider/rajashthan-web-banner.jpg"
+          height="500px"
+          src= {slider1}
           alt="First slide"
           fluid
         />
@@ -21,7 +24,8 @@ function Bannerslider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.dainikbhaskargroup.com/images/slider/rajashthan-web-banner.jpg"
+          height="500px"
+          src={slider2}
           alt="Second slide"
           
         />

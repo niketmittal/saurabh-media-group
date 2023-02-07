@@ -3,24 +3,85 @@
 img{width: 100%;}
 .widthh{width: 100%; clear: both; float: left;}
 .ml{margin-left: 50%;}
+li{list-style-type: none;}
+ul> li> a {text-decoration: none; color: black;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* COMPONENTS */
 
 /* HEADER */
 .header ul{width: 100%; float: left;margin-top: 5%;}
-.header ul li{display: inline-block;width: 15%;}
+.header ul li{display: inline;width: 20%;padding: 10px;}
 
 /* Fotter */
 .fotter{
-    background-color: #333333;
+    background-color: #535353;
     width: 100%;
     float: left;
     margin-top: 5%;
 }
+
+.latestnews ul{
+    width: 100%;
+    float: left;
+}
+
+.latestnews ul li{
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+}
 /* Landing Page */
 
+/* Enquiryform  */
+.enquiryform , .enquiryform ul{
+    width: 100%;
+    float: left;
+}
 
+.enquiryform ul li{
+    padding-top: 4%;
+    width: 50%;
+    float: left;
+}
+
+.enquiryform ul li:last-child{
+    width: 100%;
+    float: left;
+}
+
+.enquiryform ul li input{
+    border: none;
+    border-bottom: black 2px solid;
+    background-color: #c05b2f;
+}
+
+.enquiryform ul li input::placeholder{
+    color: black;
+}
+
+/* upcomingevents */
+.upcomingevents ul li{
+    width: 30%;
+    float: left;
+    padding-bottom: 2%;
+    margin-left: 2%;
+}
 /* Slider */
 
 .Bannerslider{background-color: green;}
 
 
+.enquiryform{
+    color: #fff;
+}
+
+/* Buttons */
+#submit{
+    padding: 5px 10px;
+    border: solid black 2px;
+    background-color: black;
+    color: #c05b2f;
+}

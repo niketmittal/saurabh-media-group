@@ -1,18 +1,24 @@
 import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
+import Header from "../Components/header";
+import Fotter from "../Components/Fotter";
 // Import All Pages
 import LandingPage from "../Pages/LandingPage";
+import Aboutus from "../Pages/Aboutus";
+import Contactuspage from "../Pages/ContactUs";
 import PageNotFound from "../Pages/PageNotFound";
 
 
 function Routing() {
     return (
         <Router>
+            <Header />
             <Routes>
-                <Route path="/" element={<LandingPage/>}/>
-                {/* <Route path="/aboutus" element={<Aboutus/>}/> */}
-                <Route path="*" element={<PageNotFound/>}/>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/aboutus" element={<Aboutus />} />
+                <Route path="/contactus" element={<Contactuspage />} />
+                <Route path="*" element={<PageNotFound />} />
             </Routes>
-
+            <Fotter />
         </Router>
     )
 }

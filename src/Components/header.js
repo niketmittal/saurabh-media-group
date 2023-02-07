@@ -1,7 +1,6 @@
 import React from "react";
 import { Fullwidth, Widthfifty, Widthonefourth, Widthseventyfive } from "../style/commonstyle";
-import Bannerslider from "./Bannerslider";
-
+import { Link } from "react-router-dom";
 function Header() {
     return (
         <>
@@ -10,17 +9,22 @@ function Header() {
                 <Fullwidth>
                     <Widthfifty>
                         <Widthonefourth>
-                            <img src="..\images\logo.png" alt="Logo" />
+                            <Link to="/">
+                                <img src="..\images\logo.jpg" alt="Logo" />
+                            </Link>
                         </Widthonefourth>
                     </Widthfifty>
                     <Widthfifty>
                         <ul>
-                            <li>HOME</li>
-                            <li>ABOUT US</li>
+                            <li><Link to="/">HOME</Link></li>
+                            <li><Link to="/aboutus">ABOUT US</Link></li>
+                            <li><Link to="/contactus">CONTACT US</Link></li>
+                            <li><a href="https://saurabhadvertisement.netlify.app/">NEWSPAPER-SUBSCRIPTION</a></li>
+                            <li><a href="https://eventheld.netlify.app/">EVENT-SUBSCRIPTION</a></li>
                         </ul>
                     </Widthfifty>
                 </Fullwidth>
-                
+
             </div>
 
         </>
