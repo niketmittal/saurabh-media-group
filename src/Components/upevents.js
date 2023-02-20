@@ -15,9 +15,13 @@ function Upcomingevents() {
                             <img src={event1} />
                         </Fullwidth>
                         <Fullwidth>
-                            <HH4>Produt Launches</HH4>
-                            <PP2 color="#606060">It serves the purpose of material even though the version is not meaningful. Replacing the actual content with placeholder text allows designers to design the layout properly even before the content itself has been produced. It is used to create documents or paragraphs as required according to your content requirement.</PP2>
-                            <Moreinfo>More Info</Moreinfo>
+                            <HH4>Arijit Singh Concert</HH4>
+                            <PP2 color="#606060">venue - City Garden      <br></br>
+                             Date - 12-3-2023 <br></br>
+                             Time - 9:00 PM  <br></br>
+                             Duration - 2 hours
+                             </PP2>
+                            <a href="https://saurabhadvertisement.netlify.app/">Book</a>
                         </Fullwidth>
                     </Fullwidth>
                 </li>
@@ -27,9 +31,12 @@ function Upcomingevents() {
                             <img src={event2} />
                         </Fullwidth>
                         <Fullwidth>
-                            <HH4>Produt Launches</HH4>
-                            <PP2 color="#606060">It serves the purpose of material even though the version is not meaningful. Replacing the actual content with placeholder text allows designers to design the layout properly even before the content itself has been produced. It is used to create documents or paragraphs as required according to your content requirement.</PP2>
-                            <Moreinfo>More Info</Moreinfo>
+                            <HH4>Holi Celebration</HH4>
+                            <PP2 color="#606060">venue - Sarswati Garden      <br></br>
+                             Date - 8-3-2023 <br></br>
+                             Time - 9:00 AM  <br></br>
+                             Duration - 3 hours</PP2>
+                            <a href="https://saurabhadvertisement.netlify.app/">Book</a>
                         </Fullwidth>
                     </Fullwidth>
                 </li>
@@ -39,9 +46,13 @@ function Upcomingevents() {
                             <img src={event3} />
                         </Fullwidth>
                         <Fullwidth>
-                            <HH4>Produt Launches</HH4>
-                            <PP2 color="#606060">It serves the purpose of material even though the version is not meaningful. Replacing the actual content with placeholder text allows designers to design the layout properly even before the content itself has been produced. It is used to create documents or paragraphs as required according to your content requirement.</PP2>
-                            <Moreinfo>More Info</Moreinfo>
+                            <HH4>Grand Fair</HH4>
+                            <PP2 color="#606060">venue - sukharia circle      <br></br>
+                             Starting Date - 1-3-2023 <br></br>
+                             End Date - 12-3-2023 <br></br>
+                             Time - 9:00 AM   to 9:00 PM <br></br>
+                             </PP2>
+                            <a href="https://saurabhadvertisement.netlify.app/">Book</a>
                         </Fullwidth>
                     </Fullwidth>
                 </li>
